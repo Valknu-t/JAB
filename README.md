@@ -1,7 +1,7 @@
 # JAB
-Arthur André 
-Benjenmin Brault-renault
-Jeff labillois
+Arthur André (nexexpoarthur)
+Benjenmin Brault-renault (benjamin-35)
+Jeff labillois (valknu-t)
 
 Objectif 1 <br>
 1	– Github pour gestion code et documentation <br>
