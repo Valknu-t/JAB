@@ -6,6 +6,8 @@ Jeff labillois (valknu-t) <br> <br>
 Objectif 1 <br>
 1	– Github pour gestion code et documentation <br>
 2	– Jenkins pour l’automatisation des tests [Réaliser pas de tests unitaires et intégration de l’app] <br>
+https://jenkins-le-guide-complet.github.io/html/chapter-automated-testing.html
+<br>
 3	– SonarQube pour qualité du code [Utiliser les normes de style/codage existantes] <br> <br>
 
 Objectif 2 <br>
