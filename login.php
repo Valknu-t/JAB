@@ -56,7 +56,7 @@ if (isset($_POST["mail"]) && isset($_POST["password"])) {
         <div class="mb-4">
           <label class="block text-gray-700 text-sm font-medium mb-2" for="username"> Email
              </label>
-          <input class="shadow-sm appearance-none border border-gray-400 rounded w-full py-4 px-3 text-gray-700 text-sm leading-tight focus:outline-none focus:border-indigo-300" id="username" type="text" name="mail" placeholder="user@example.com">
+          <input class="shadow-sm appearance-none border border-gray-400 rounded w-full py-4 px-3 text-gray-700 text-sm leading-tight focus:outline-none focus:border-indigo-300" id="username" type="text" name="mail" placeholder="user@example.com" value="<?php if(isset($_POST["mail"])){echo $_POST["mail"];}?>">
         </div>
         <div class="mb-6">
           <label class="block text-gray-700 text-sm font-medium mb-2" for="username"> Mot de passe </label>
