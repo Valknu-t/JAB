@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3307
--- Généré le : mer. 22 sep. 2021 à 12:23
+-- Généré le : mer. 22 sep. 2021 à 14:38
 -- Version du serveur :  10.4.13-MariaDB
 -- Version de PHP : 7.3.21
 
@@ -31,20 +31,18 @@ DROP TABLE IF EXISTS `membres`;
 CREATE TABLE IF NOT EXISTS `membres` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `mail` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
-  `first_name` varchar(255) DEFAULT NULL,
-  `last_name` varchar(255) DEFAULT NULL,
   `password` text DEFAULT NULL,
-  `data_create` date DEFAULT NULL,
+  `data_create` datetime DEFAULT current_timestamp(),
   `date_lastconnect` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=543 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `membres`
 --
 
-INSERT INTO `membres` (`id`, `mail`, `first_name`, `last_name`, `password`, `data_create`, `date_lastconnect`) VALUES
-(1, 'paulgirardecommerce50@gmail.com', 'arthur', 'andré', '$2y$10$gW2SybNRfOzlYR1blXSae.ne2bXOg7z6b73W4M3I1JIzsUHlpsisS', '2021-03-23', '2021-09-17');
+INSERT INTO `membres` (`id`, `mail`, `password`, `data_create`, `date_lastconnect`) VALUES
+(1, 'lezappingdelafter@gmail.com', '$2y$10$rL.QN1HfWtJnvchgDPdHI.hoJM91ytUiKV25QoP0VoKpN2NKD6Inm', '2021-09-22 13:31:39', NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
