@@ -16,3 +16,5 @@ Objectif 2 <br>
 
 -	Code et doc sur le Github <br>
 -	À chaque « commit » -> lancement des tests dans Jenkins + SonarQube
+
+liens pour installer les outils pour la machine virtuel : https://drive.google.com/file/d/1TyB-dGErM55UzIQpBgKj0TOgkHaq9F9g/view?usp=sharing
