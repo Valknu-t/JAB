@@ -1,4 +1,7 @@
 # JAB
+Arthur André 
+Benjenmin Brault-renault
+Jeff labillois
 
 Objectif 1 <br>
 1	– Github pour gestion code et documentation <br>
