@@ -1,6 +1,6 @@
 # JAB
 Arthur André (nexexpoarthur) <br>
-Benjamin Brault-renault (benjamin-35) <br>
+Benjamin Brault-renault (benjaminb-35) <br>
 Jeff labillois (valknu-t) <br> <br>
 
 Objectif 1 <br>
