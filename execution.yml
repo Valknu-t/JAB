@@ -4,7 +4,7 @@ execution:
   hold-for: 3m
   ramp-up: 2m
   
-  scenario: CHoose Flight
+  scenario: Choose Flight
 scenarios:
   Choose Flight:
     requests:
