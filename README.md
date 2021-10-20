@@ -53,6 +53,6 @@ Configurer Github :
 
 Etape 7 :
 Configurer Jenkins :
-https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project
-https://www.youtube.com/watch?v=F5QKON50xP8
+  - https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project
+  - https://www.youtube.com/watch?v=F5QKON50xP8
 
